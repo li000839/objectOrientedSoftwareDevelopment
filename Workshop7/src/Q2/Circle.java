@@ -21,7 +21,9 @@ public class Circle extends Shape {
     @Override
     public String toString() {
         return String.format("The circle in (%f, %f) has radius = %f" +
-                "Area = %f and Perimeter = %f", x, y, radius,
+                " Area = %f and Perimeter = %f\n", x, y, radius,
                 getArea(), getPerimeter());
     }
+
+
 }

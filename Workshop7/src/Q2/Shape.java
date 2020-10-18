@@ -14,4 +14,8 @@ public abstract class Shape {
     public String toString() {
         return "Plain Shape";
     }
+    public void test() {
+        System.out.println("This is a test");
+    }
+
 }

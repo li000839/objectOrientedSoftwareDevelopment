@@ -8,4 +8,9 @@ public class Point {
         this.x = x;
         this.y = y;
     }
+
+    private void CheckPoint() {
+        System.out.format("x is %f", x);
+        System.out.format("y is %f", y);
+    }
 }
