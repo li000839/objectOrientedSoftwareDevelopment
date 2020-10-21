@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-21T05:14:31.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="_ATzzV9GEN9FcahTw63b" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-21T06:51:12.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="V-V-zfwBeC8Pm8UFza7W" version="13.8.1" type="github">
   <diagram id="8bXLAqBgpqBfF3MkcfT9" name="Page-1">
     <mxGraphModel dx="2075" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -261,13 +261,13 @@
         <mxCell id="_KqUHUQxYsWN_y9WbBXg-53" value="World" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="-16" width="300" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_KqUHUQxYsWN_y9WbBXg-54" value="- actors: ArrayList&lt;Actors&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_KqUHUQxYsWN_y9WbBXg-53" vertex="1">
+        <mxCell id="_KqUHUQxYsWN_y9WbBXg-54" value="- actors: ArrayList&lt;Actors&gt;&#xa;- fileName: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_KqUHUQxYsWN_y9WbBXg-53" vertex="1">
           <mxGeometry y="26" width="300" height="34" as="geometry" />
         </mxCell>
         <mxCell id="_KqUHUQxYsWN_y9WbBXg-55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_KqUHUQxYsWN_y9WbBXg-53" vertex="1">
           <mxGeometry y="60" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="_KqUHUQxYsWN_y9WbBXg-56" value="+ getWorldFile(String): ArrayList&lt;Actors&gt;&#xa;+ setWorldFile(ArrayList&lt;Actors&gt;): ArrayList&lt;Actors&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_KqUHUQxYsWN_y9WbBXg-53" vertex="1">
+        <mxCell id="_KqUHUQxYsWN_y9WbBXg-56" value="+ readCSV(String): ArrayList&lt;Actors&gt;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_KqUHUQxYsWN_y9WbBXg-53" vertex="1">
           <mxGeometry y="68" width="300" height="52" as="geometry" />
         </mxCell>
         <mxCell id="_KqUHUQxYsWN_y9WbBXg-37" value="Player" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
