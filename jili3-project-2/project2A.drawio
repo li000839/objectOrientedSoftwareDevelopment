@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-22T22:08:25.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="F-BU5XAWhHIjEr7q_h3I" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-22T23:57:29.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="XU8L7rLRL4t3bgL-nSes" version="13.8.1" type="github">
   <diagram id="8bXLAqBgpqBfF3MkcfT9" name="Page-1">
     <mxGraphModel dx="2295" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,17 +25,6 @@
               <mxPoint x="-110" y="227" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="OPrXJ3ff7VwbG-L7M6mP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="_KqUHUQxYsWN_y9WbBXg-41" target="OPrXJ3ff7VwbG-L7M6mP-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-490" y="100" />
-              <mxPoint x="-490" y="100" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OPrXJ3ff7VwbG-L7M6mP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="_KqUHUQxYsWN_y9WbBXg-45" target="OPrXJ3ff7VwbG-L7M6mP-19">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_KqUHUQxYsWN_y9WbBXg-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" parent="1" source="_KqUHUQxYsWN_y9WbBXg-18" target="AUTX05rUSj2o7FPqUN2a-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -206,32 +195,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPrXJ3ff7VwbG-L7M6mP-15" value="&lt;&lt;interface&gt;&gt;&#xa;GatherFunction" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="40" width="160" height="144" as="geometry" />
-        </mxCell>
-        <mxCell id="OPrXJ3ff7VwbG-L7M6mP-16" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OPrXJ3ff7VwbG-L7M6mP-15">
-          <mxGeometry y="40" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="OPrXJ3ff7VwbG-L7M6mP-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OPrXJ3ff7VwbG-L7M6mP-15">
-          <mxGeometry y="66" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="OPrXJ3ff7VwbG-L7M6mP-18" value="+ GatherOnTree(): &#xa;+ GatherOnGoldenTree(): &#xa;+ GatherOnHoard(): &#xa;+ GatherOnStockpiles():&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OPrXJ3ff7VwbG-L7M6mP-15">
-          <mxGeometry y="74" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="OPrXJ3ff7VwbG-L7M6mP-19" value="&lt;&lt;interface&gt;&gt;&#xa;ThiefFunction" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="225" width="160" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="OPrXJ3ff7VwbG-L7M6mP-20" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OPrXJ3ff7VwbG-L7M6mP-19">
-          <mxGeometry y="35" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="OPrXJ3ff7VwbG-L7M6mP-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OPrXJ3ff7VwbG-L7M6mP-19">
-          <mxGeometry y="61" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="OPrXJ3ff7VwbG-L7M6mP-22" value="+ ThiefOnTree(): &#xa;+ ThiefOnGoldenTree(): &#xa;+ ThiefOnHoard(): &#xa;+ ThiefOnStockpiles():&#xa;+ ThiefOnGather():&#xa;+ ThiefOnPad(): &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OPrXJ3ff7VwbG-L7M6mP-19">
-          <mxGeometry y="69" width="160" height="101" as="geometry" />
-        </mxCell>
         <mxCell id="_KqUHUQxYsWN_y9WbBXg-37" value="Player" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="147" width="280" height="160" as="geometry" />
+          <mxGeometry x="-70" y="147" width="280" height="240" as="geometry" />
         </mxCell>
         <mxCell id="_KqUHUQxYsWN_y9WbBXg-38" value="- direction: String&#xa;- carrying: boolean&#xa;- active: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_KqUHUQxYsWN_y9WbBXg-37" vertex="1">
           <mxGeometry y="26" width="280" height="54" as="geometry" />
@@ -239,8 +204,8 @@
         <mxCell id="_KqUHUQxYsWN_y9WbBXg-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_KqUHUQxYsWN_y9WbBXg-37" vertex="1">
           <mxGeometry y="80" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="_KqUHUQxYsWN_y9WbBXg-40" value="+ Move(location: Location): Location&lt;br&gt;+ OnFences():&amp;nbsp;&lt;br&gt;+ OnSign():&amp;nbsp;&amp;nbsp;&lt;br&gt;+ OnMitosisPool():&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="_KqUHUQxYsWN_y9WbBXg-37" vertex="1">
-          <mxGeometry y="88" width="280" height="72" as="geometry" />
+        <mxCell id="_KqUHUQxYsWN_y9WbBXg-40" value="+ Move(location: Location): Location&lt;br&gt;+ OnFences():&amp;nbsp;&lt;br&gt;+ OnSign():&amp;nbsp;&amp;nbsp;&lt;br&gt;+ OnMitosisPool():&amp;nbsp;&lt;br&gt;+ OnTree():&amp;nbsp;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;+ OnGoldenTree():&amp;nbsp;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;+ OnHoard():&amp;nbsp;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;+ OnStockpiles():&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;+ OnGather():&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;+ OnPad():&amp;nbsp;&lt;div style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="_KqUHUQxYsWN_y9WbBXg-37" vertex="1">
+          <mxGeometry y="88" width="280" height="152" as="geometry" />
         </mxCell>
         <mxCell id="_KqUHUQxYsWN_y9WbBXg-41" value="Thief" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-420" y="51" width="270" height="100" as="geometry" />
