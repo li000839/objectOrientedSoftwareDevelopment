@@ -20,4 +20,27 @@ public class Rectangle {
     public double getHeight() {
         return rightBottom.getY() - leftTop.getY();
     }
+
+    public Point getLeftTop() {
+        return leftTop;
+    }
+
+    public void setLeftTop(Point leftTop) {
+        this.leftTop = leftTop;
+    }
+
+    public Point getRightBottom() {
+        return rightBottom;
+    }
+
+    public void setRightBottom(Point rightBottom) {
+        this.rightBottom = rightBottom;
+    }
+
+    public static void main(String[] args) {
+        Rectangle[] rectangles = new Rectangle[3];
+        for (Rectangle rectangle : rectangles) {
+            rectangle.
+        }
+    }
 }

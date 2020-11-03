@@ -1,5 +1,8 @@
 package Q4;
 
+
+import java.awt.*;
+
 public class Person {
     private String name;
     private Point point;
@@ -7,8 +10,7 @@ public class Person {
 
     private static Person[] people = new Person[100];
     private static int peopleCount = 0;
-
-
+    
     public Person(String name, Point location, String householdName) {
         this.name = name;
         this.point = location;
